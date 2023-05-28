@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
-/* font-family: 'Inter', sans-serif; */
 /* - Mobile: 375px - Desktop: 1440px */
 :root{
     /* ### Primary */
@@ -13,4 +12,39 @@
     --Grayish-blue: hsl(233, 8%, 79%);
     --Dark-grayish-blue: hsl(236, 13%, 42%);
     --Very-dark-blue: hsl(240, 100%, 5%);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: var(--Off-white);
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+}
+header nav{
+    display: flex;
+    gap: 30px;
+}
+a{
+    text-decoration: none;
+    color: var(--Dark-grayish-blue);
+}
+main{
+    display: flex;
+    flex-direction: row;
+}
+.imgConteiner{
+    width: 1100px;
+}
+.subaside{
+    display: flex;
+    flex-direction: row;
 }
